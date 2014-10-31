@@ -1,4 +1,4 @@
-poly-select2
+poly-pagedown
 ============
 
 dependencies:
