@@ -1,18 +1,18 @@
 {
-  "name": "polyForm",
+  "name": "poly-pagedown",
   "version": "0.1.0",
-  "description": "Angular based form directives",
+  "description": "Angular wrapper for pagedown",
   "main": "_src/coffee/main.coffee",
-  "main.scss": "_src/sass/poly-form.scss",
+  "main.scss": "_src/sass/poly-pagedown.scss",
   "author": "Harris Sidiropoulos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/polyptychon/polyForm/issues"
+    "url": "https://github.com/polyptychon/poly-pagedown/issues"
   },
-  "homepage": "https://github.com/polyptychon/polyForm",
+  "homepage": "https://github.com/polyptychon/poly-pagedown",
   "repository": {
     "type": "git",
-    "url": "https://github.com/polyptychon/polyForm.git"
+    "url": "https://github.com/polyptychon/poly-pagedown.git"
   },
   "browserify": {
     "transform": [
