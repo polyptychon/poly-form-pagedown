@@ -50,9 +50,7 @@ var DEVELOPMENT = 'development',
     watching = false,
     not_in_dependencies_libs = [
       "jquery",
-      "angular/angular",
-      //'select2/select2',
-      //'ui-select2/src/select2'
+      "angular/angular"
     ];
 
 var env = process.env.NODE_ENV || DEVELOPMENT;
