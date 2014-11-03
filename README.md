@@ -1,4 +1,4 @@
-poly-pagedown
+poly-form-pagedown
 ============
 
 dependencies:

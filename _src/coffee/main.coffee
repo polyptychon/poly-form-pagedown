@@ -3,5 +3,5 @@ require 'angular/angular' unless angular?
 
 
 module.exports =
-  angular.module('poly-pagedown', [])
+  angular.module('poly-form-pagedown', [])
   .directive("pagedown", require("./directives/pagedown/PageDown.coffee"))
