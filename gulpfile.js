@@ -142,7 +142,7 @@ gulp.task('libjs', function() {
           console.log(err.message);
           this.end();
         })
-      .pipe(source('poly-form-pagedown-vendors.min.js'))
+      .pipe(source('poly-form-pagedown-vendor.min.js'))
       .pipe(duration('vendor'))
       .pipe(buffer())
       .pipe(gulpif(env === PRODUCTION, uglify()))
