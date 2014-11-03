@@ -132,7 +132,7 @@ gulp.task('libjs', function() {
     .pipe(plumber({
       errorHandler: handleError
     }))
-    .pipe(myCoffee('_lib', 'poly-pagedown.min.js'));
+    .pipe(myCoffee('_lib', 'poly-form-pagedown.min.js'));
 
   gulp.src(dependencies)
     return browserify()
@@ -142,7 +142,7 @@ gulp.task('libjs', function() {
           console.log(err.message);
           this.end();
         })
-      .pipe(source('poly-pagedown-lib.min.js'))
+      .pipe(source('poly-form-pagedown-lib.min.js'))
       .pipe(duration('vendor'))
       .pipe(buffer())
       .pipe(gulpif(env === PRODUCTION, uglify()))
