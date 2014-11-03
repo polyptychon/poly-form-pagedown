@@ -1,7 +1,3 @@
-# packaged poly-form-pagedown
-
-This repo is not for distribution on `npm` and `bower`.
-
 # Description
 
 This directive allows you create elements with behaviour from the [pagedown](https://code.google.com/p/pagedown/) library.
