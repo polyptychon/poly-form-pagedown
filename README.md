@@ -2,6 +2,8 @@
 
 This directive allows you create elements with behaviour from the [pagedown](https://code.google.com/p/pagedown/) library.
 
+Demo: http://polyptychon.github.io/poly-form-pagedown/
+
 # Requirements
 
 - [AngularJS](http://angularjs.org/)
