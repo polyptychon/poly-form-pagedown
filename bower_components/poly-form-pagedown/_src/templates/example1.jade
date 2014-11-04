@@ -1,0 +1,16 @@
+doctype html
+html(ng-app="poly-form-pagedown")
+  head
+    include partials/header
+  body
+    .container
+
+      - formName = 'ComponentsForm'
+      form(name=formName, ng-cloak="true")
+        .col-md-12
+          .col-md-12
+            pagedown(ng-model=formName+'.test3' ng-required="true" rows="20" id="pagedown1")
+              include partials/test.md
+            pagedown(ng-model=formName+'.test3' ng-required="true" rows="20" id="pagedown2")
+
+    include partials/footer

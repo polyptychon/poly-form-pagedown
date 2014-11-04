@@ -1,0 +1,14 @@
+{
+  "name": "poly-form-pagedown",
+  "homepage": "https://github.com/polyptychon/poly-form-pagedown",
+  "_release": "eb372676fb",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "eb372676fbcf62171e2d044c6bd220a8a2231279"
+  },
+  "_source": "git://github.com/polyptychon/poly-form-pagedown.git",
+  "_target": "*",
+  "_originalSource": "polyptychon/poly-form-pagedown",
+  "_direct": true
+}

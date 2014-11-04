@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="poly-form-pagedown">
+  <head>
+    <title>Example</title>
+    <meta name="description" content="Example">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/poly-form-pagedown/lib/css/poly-form-pagedown.css">
+  </head>
+  <body>
+    <div class="container">
+      <form name="ComponentsForm" ng-cloak="true">
+        <div class="col-md-12">
+          <div class="col-md-12">
+            <pagedown ng-model="ComponentsForm.test3" ng-required="true" rows="20" id="pagedown1">This is the *first* editor.
+------------------------------
+Just plain **Markdown**, except that the input is sanitized:
+<marquee>I'm the ghost from the past!</marquee>n
+# Markdown Extra
+## Tables
+| Item             | Value |
+| ---------------- | -----:|
+| Air Conditioner  | $1600 |
+| <del>Phone</del> |   $12 |
+| *Pipe*           |    $1 |
+I've added just some basic borders and padding. Notice that span-level tags will
+still be rendered inside of the table. Also, you can specify a class for the generated
+tables using `Markdown.Extra.init(converter, {table_class: "table table-striped"})` for instance.
+## Fenced Code Blocks
+```javascript
+var foo = "bar";
+```
+You can also specify options. Markdown.Extra was given the following options
+for this editor.
+```javascript
+  Markdown.Extra.init(converter1, {
+    extensions: "all",
+    highlighter: "prettify"
+  });
+```
+
+            </pagedown>
+            <pagedown ng-model="ComponentsForm.test3" ng-required="true" rows="20" id="pagedown2"></pagedown>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!--script(src="assets/js/vendor.js")-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>
+    <script src="bower_components/poly-form-pagedown/lib/js/poly-form-pagedown.min.js"></script>
+  </body>
+</html>
