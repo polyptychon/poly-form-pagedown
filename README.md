@@ -77,7 +77,7 @@ A Markdown editor with realtime preview of the generated HTML.
 
 | Name                                      | Type     | Default   | Description |
 | :-------------------------------------    | :---     | :-----    | :-----      |
-| usePreview                                | Boolean  | true      | Show/hides preview pane. |
+| use-preview                                | Boolean  | true      | Show/hides preview pane. |
 
 ```html
 <pagedown ng-model="myForm.variable" ng-required="true" rows="20" id="pagedown_id">
